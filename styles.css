@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo {
+    position: left;
+    left: 80px;
+    top: 50%;
+}
+
+.header-logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.67); /* Semi-transparent background for content readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photo {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.photo img {
+    width: 150px;
+    height: 200px;
+}
+
+.form-container {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+strong {
+    font-weight: bold;
+}
